@@ -1,0 +1,1 @@
+java -javaagent:lib/sizeofag-1.0.4.jar -Djava.library.path=src/main/resources/ERulesD2S -cp target/ERulesD2S-1.0-jar-with-dependencies.jar:lib/JCLEC4-base-1.0-jar-with-dependencies.jar moa.DoTask "EvaluateInterleavedTestThenTrain -s (moa.streams.generators.AgrawalGenerator -f 1) -l (moa.classifiers.evolutionary.EvolutionaryRuleLearnerGPU) -i 10000 -f 1000"
